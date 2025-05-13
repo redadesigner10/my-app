@@ -1,0 +1,23 @@
+{
+  "name": "my-pos-app",
+  "version": "1.0.0",
+  "description": "Point of Sale Web Application",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "dev": "npm install concurrently && concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "pos",
+    "react",
+    "node",
+    "express"
+  ],
+  "author": "Manus",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
